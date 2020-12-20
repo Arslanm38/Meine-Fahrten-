@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    >
+    <!-- So wird unser Layout für die Liste ungefähr aussehen Code von Muhammed Arslan -->
+
+    <!-- Bild -->
+    <ImageView
+
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/image"
+        />
+
+    <!-- Text Rahmen-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <!-- Überschrift -->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fahrt ID:74573845"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:id="@+id/textView1"
+            />
+
+        <!-- Grobe Details muss noch geguckt werden wo wir die Daten herkriegen und wie.
+               Ist grade nur als Beispiel -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10.12.2020   10:38    Name: Mustermann"
+            android:textColor="#DA777168"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="15sp"
+            android:id="@+id/textView2"
+            />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
